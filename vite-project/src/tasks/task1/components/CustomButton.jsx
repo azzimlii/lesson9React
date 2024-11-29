@@ -1,8 +1,5 @@
-import { useState } from "react";
-
 export default function CustomButton(props) {
     const{text, warnMessage,hint}=props;
-    // const[visibility,useVisibility]=useState(false);
     const handler=()=>{
       if (warnMessage) {
         alert(warnMessage);
@@ -16,4 +13,3 @@ export default function CustomButton(props) {
   )
 }
 
-//https://demo.mobiscroll.com/react/popup/showing-the-popover#
