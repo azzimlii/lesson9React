@@ -1,4 +1,4 @@
-import CustomButton from "./CustomButton";
+import CustomButton from "./components/CustomButton";
 
 export default function AppTask1() {
   return (
@@ -15,7 +15,6 @@ export default function AppTask1() {
       text="Button3"
       hint="Just a regular button"
     />
-   
   </div>
   )
 }
