@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './styles.css/';
+// import './styles.css/';
 import EditProcesss from './components/EditProcesss';
 import Modal from './components/Modal';
 export default function AppProject() {
