@@ -1,8 +1,12 @@
 import './App.css'
+import Nav from './components/Nav'
 import Navbar from './components/Navbar'
-import About from './pages/about/About'
-import Contact from './pages/contact/Contact'
-import Work from './pages/workExamples/Work'
+import About from './pages/firstRouting/about/About'
+import Contact from './pages/firstRouting/contact/Contact'
+import Work from './pages/firstRouting/workExamples/Work'
+import Clock from './pages/secondRouting/clock/Clock'
+import StopWatch from './pages/secondRouting/stopWatch/StopWatch'
+import Timer from './pages/secondRouting/timer/Timer'
 import AppProject from './tasks/additionalproject/AppProject'
 import AppTask1 from './tasks/task1/AppTask1'
 import AppTask2 from './tasks/task2/AppTask2'
@@ -28,12 +32,21 @@ function App() {
       {/* <AppProject/> */}
       {/* <AppTask5/> */}
 
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="contact/*" element={<Contact />} />
           <Route path="workExamples/*" element={<Work />} />
+        </Routes>
+      </BrowserRouter> */}
+
+      <BrowserRouter>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Clock />} />
+          <Route path="stopwatch/*" element={<StopWatch />} />
+          <Route path="timer/*" element={<Timer />} />
         </Routes>
       </BrowserRouter>
     </>
