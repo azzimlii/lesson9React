@@ -1,4 +1,4 @@
-/* .app {
+.app {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -25,4 +25,4 @@
 .app3 {
   display: flex;
   flex-wrap: wrap;
-} */
+}

@@ -1,0 +1,11 @@
+.link{
+    margin-right: 20px;
+    color:black;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(224, 223, 223);
+    padding: 5px;
+}
